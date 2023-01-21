@@ -47,7 +47,7 @@ header > h1{
 }
 
 header > p {
-    font-size: 1.2em;
+    font-size: 1.5em;
     font-family: var(--fonte-padrao);
     color: white;
     max-width: 600px;
@@ -55,6 +55,7 @@ header > p {
     padding-left: 10px;
     margin: auto;
     margin-bottom: 30px;
+    margin-top: 30px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.199)
 }
 
@@ -62,27 +63,25 @@ nav{
     padding: 150px;
     text-align: center;
 }
-button{
-    color:var(--cor1);
+
+nav > button{
+    color:var(--cor4);
     text-decoration: none;
     font-weight: bold;
     transition-duration: 0.5s;
-    border-radius:2,5px;
+    border-radius:2.5px;
+    margin: 1px 2px 1px 2px;
     padding: 5px 10px 5px 10px;
-    margin: auto;
+    border-color: none;
+    font-size: 1.5em;
+    background-color: #f0e6fa;
+    box-shadow: 3px 1px 3px var(--cor5);
 }
 
 button:hover{
     background-color: var(--cor3);
     color: var(--cor5);
-    text-decoration: underline;
     color: black;
-}
-
-.teste {
-   background-color: red; 
-   width: 100px;
-   height: 100px;
 }
 
 main{
@@ -163,3 +162,8 @@ footer a:hover{
     text-decoration: underline;
     color: var(--cor1);
 }
+
+#texto2004, #texto2015-2017, #texto2018, #texto2019, #texto2020-2021, #texto2022, #texto2023{
+    display: none;
+}
+
